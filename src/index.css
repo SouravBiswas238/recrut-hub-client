@@ -1,0 +1,100 @@
+/* google fonts poppins ( font-family: 'Poppins', sans-serif; ) */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* font-family: 'Open Sans', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  max-width: 1349px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bg-blue-dark {
+  background-color: #5956e9;
+}
+
+.color-blue-dark {
+  color: #5956e9;
+}
+
+.para-color {
+  color: #808285;
+}
+
+.heading-color {
+  color: #191919;
+}
+
+.btn-primary-blue {
+  background: #061835;
+  color: #fff;
+  padding: 15px 20px;
+
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.btn-primary-blue2 {
+  background: #3878df;
+  color: #fff;
+  padding: 15px 20px;
+
+  font-weight: 500;
+  transition: all 0.5s;
+}
+
+.btn-primary-blue2:hover {
+  transform: translateY(-7px);
+  transition: all 0.5s;
+}
+
+.btn-primary-blue:hover {
+  transform: translateY(-7px);
+  transition: all 0.5s;
+}
+
+.btn-primary-blue:focus {
+  outline: none;
+}
+
+.btn-primary-blue:hover {
+  background-color: #191919;
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.profile-form-border {
+  border: 1px solid rgb(224, 224, 224);
+}
+
+/* dark mode code 
+ */
+
+.dark-nav-link {
+  color: #c6c9d8;
+}
+
+.dark-bg-light {
+  background-color: #0f172a;
+}
+
+.dark-bg {
+  background-color: #0c1322;
+}
+
+.dark-btn-bg {
+  background-color: #0284c7;
+}
+
+.dark-highlight-text {
+  color: #38bdf8;
+}

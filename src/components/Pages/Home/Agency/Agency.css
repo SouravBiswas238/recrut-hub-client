@@ -1,0 +1,12 @@
+.section-title {
+  display: inline-block;
+  font-size: 24px;
+  padding: 15px 30px;
+  z-index: 1;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.shadow-agency {
+  box-shadow: 0 28px 40px -40px rgb(0 0 0 / 50%);
+}

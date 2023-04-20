@@ -1,0 +1,74 @@
+.Container {
+    max-width: 1349px;
+    margin: auto;
+    padding: 0px 5px;
+}
+
+.admin-bg {
+    background-color: #1e1e2f;
+}
+
+.admin-shadow {
+    box-shadow: 0 1px 20px 0 rgb(0 0 0 / 10%);
+}
+
+.admin-card-bg {
+    background-color: #27293d;
+}
+
+.admin-sidebar-color {
+    color: #8c909a;
+}
+
+.admin-heading-color {
+    color: #b1b1b5;
+}
+
+/* notifications page styles */
+.admin-title {
+    color: #b1b1b5;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.admin-normal-color {
+    color: #9c9fa6;
+}
+
+.admin-border-right {
+    border-right: 1px solid #424351 !important;
+    padding-right: 1.5rem;
+}
+
+.admin-btn-yellow {
+    background-color: #f5a623;
+    padding: 0.875rem 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    outline: none;
+    border-color: #f5a623;
+}
+
+.admin-icon-color {
+    color: #9c9fa6;
+}
+
+.admin-heading-font-weight {
+    font-weight: 600;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+.todo-border {
+    border: 1px solid #424351;
+    border-radius: 7px;
+    font-size: 0.9375rem;
+}
+
+.font-simple {
+    font-weight: 300;
+}

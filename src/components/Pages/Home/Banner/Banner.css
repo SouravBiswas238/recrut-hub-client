@@ -1,0 +1,19 @@
+.page-banner {
+  background-image: linear-gradient(90deg,
+      rgba(88, 86, 233, 0.11) 0%,
+      rgba(0, 208, 156, 0.146) 100%);
+  border-bottom: 1px solid rgba(221, 221, 221, 0.146);
+}
+
+.m {
+  display: block;
+  padding: 0 20px;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  border-radius: 0;
+  line-height: 45px;
+  margin: 0;
+  color: #1b3255;
+}

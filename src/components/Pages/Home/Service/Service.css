@@ -1,0 +1,16 @@
+.service-item {
+  padding: 50px 55px 40px;
+  border-radius: 7px;
+  background-color: #fff;
+}
+
+.service-item ul li {
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #808285;
+}
+
+.service-item:hover {
+  transition: all 0.5s;
+  transform: scale(1.02);
+}

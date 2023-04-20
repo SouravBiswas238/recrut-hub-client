@@ -1,0 +1,38 @@
+.page-bg {
+  background-color: #f5f5f5;
+}
+
+.review-shadow {
+  box-shadow: 0 5px 50px 0 rgb(0 0 0 / 7%);
+}
+
+.review-input,
+.review-textarea {
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-radius: 0;
+  color: black;
+  font-size: 13px !important;
+
+  outline: none;
+  padding: 13px 20px !important;
+  width: 100%;
+}
+
+.review-textarea:focus {
+  border: 1px solid #5956e9;
+}
+.review-input:focus {
+  border: 1px solid #5956e9;
+}
+
+::placeholder {
+  color: #000;
+  opacity: 1; /* Firefox */
+}
+
+/* input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #000;
+  font-weight: 500;
+} */

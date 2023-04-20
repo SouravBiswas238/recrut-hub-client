@@ -1,0 +1,37 @@
+.my-border-bottom {
+  border-bottom: 1px solid rgba(25, 25, 25, 0.1);
+}
+.navOpen {
+  display: inline-block;
+  top: 4rem;
+  left: 0rem;
+}
+
+.navClosed {
+  top: -42rem;
+  left: 0rem;
+}
+
+/* .my-nav {
+  background-image: linear-gradient(
+    90deg,
+    rgba(88, 86, 233, 0.11) 0%,
+    rgba(0, 208, 156, 0.146) 100%
+  );
+} */
+
+.nav-link {
+  font-size: 17px;
+  color: #162542;
+
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.nav-border {
+  border-bottom: 1px solid rgba(105, 70, 70, 0.146);
+}
+
+.nav-shadow {
+  box-shadow: 0 8px 65px -33px rgb(0 0 0 / 50%);
+}

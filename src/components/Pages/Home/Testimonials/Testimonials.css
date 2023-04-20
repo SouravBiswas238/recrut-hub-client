@@ -1,0 +1,48 @@
+.st-one:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  left: 0;
+  background: url(../../../../images/border-1.png) no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
+  background-position: bottom;
+  top: auto;
+  bottom: 0;
+  height: 100%;
+}
+
+/* testimonials */
+.testimonials {
+  background-image: url(../../../../images/pattern-shape-1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.imgBox {
+  width: 250px;
+  height: 320px;
+  z-index: 1;
+}
+.imgBox::after {
+  position: absolute;
+  content: "";
+  width: 90%;
+  height: 90%;
+  border: 1px solid white;
+  left: -15px;
+  border-radius: 130px;
+  z-index: -1;
+}
+
+.animate-float-y {
+  -webkit-animation-name: float-y;
+  animation-name: float-y;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
