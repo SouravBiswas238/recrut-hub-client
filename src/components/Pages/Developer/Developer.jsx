@@ -14,7 +14,7 @@ const Developer = () => {
   const emptyProfilePhoto =
     "https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG.png";
 
-  console.log(developerData);
+  // console.log(developerData);
   return (
     <div className="min-h-screen bg-[#F3F3F3] ">
       <div className="container">
@@ -31,9 +31,9 @@ const Developer = () => {
           <div className="mt-6 card-grid ">
             {/* single card no 1  */}
 
-            {developerData.map((singleData) => (
+            {developerData && developerData?.map((singleData) => (
               <div className="w-full card-Shadow p-4 bg-[#f7f7f7] ">
-                {console.log(singleData)}
+
                 <div class="text-center">
                   {/* image Box  */}
                   <div className="flex justify-center mt-3">

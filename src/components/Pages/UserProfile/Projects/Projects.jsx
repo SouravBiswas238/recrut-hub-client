@@ -45,7 +45,7 @@ const Projects = () => {
 
       {/* Section content */}
       <div className="px-5 pb-5">
-        {userInfo?.projects.map((project, index) => (
+        {userInfo?.projects?.map((project, index) => (
           <div
             key={index}
             className="md:flex user-card-shadow rounded-lg mb-10"

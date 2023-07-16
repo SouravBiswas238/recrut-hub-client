@@ -93,7 +93,7 @@ const OurTeam = () => {
 
 
         {
-          teamData.map(team => <SwiperSlide key={team.id} className='p-4 bg-white dark:bg-[#182133]  shadow-lg'>
+          teamData?.map(team => <SwiperSlide key={team.id} className='p-4 bg-white dark:bg-[#182133]  shadow-lg'>
             <div className='bg-red h-full'>
 
               <img src={team?.image} alt='images' />

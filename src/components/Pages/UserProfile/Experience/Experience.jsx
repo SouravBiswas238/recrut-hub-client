@@ -43,7 +43,7 @@ const Experience = () => {
       <div className="px-5 pb-5">
         {/* all Experience box */}
         <div>
-          {userInfo?.experience.map((singleExperience, index) => (
+          {userInfo?.experience?.map((singleExperience, index) => (
             <div
               key={index}
               className="max-w-[25rem] w-full px-2 py-2 user-card-shadow rounded mb-10 flex justify-start gap-3 align-top"
@@ -63,7 +63,7 @@ const Experience = () => {
                 <p className="">{singleExperience?.duration}</p>
                 <p className="font-medium text-gray-600 mt-1">
                   Skills:{" "}
-                  {singleExperience?.skills.map((skill, index) => (
+                  {singleExperience?.skills?.map((skill, index) => (
                     <span key={index}> {skill}</span>
                   ))}
                 </p>

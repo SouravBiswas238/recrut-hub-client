@@ -112,7 +112,7 @@ const FreeResource = () => {
 
             <div className="grid grid-cols-4 justify-center items-center gap-10 pt-10 mb-20 mx-3">
               {searchResult ? (
-                searchResult.map((singleData) => getThumbnail(singleData))
+                searchResult?.map((singleData) => getThumbnail(singleData))
               ) : (
                 <Loading height={'height:100px'}></Loading>
               )}
@@ -163,7 +163,7 @@ const FreeResource = () => {
           </div>
 
           <div className="grid grid-cols-4 justify-center items-center gap-10 pt-10 mb-20 mx-3">
-            {videoData.map((singleData) => getThumbnail(singleData))}
+            {videoData?.map((singleData) => getThumbnail(singleData))}
           </div>
         </div>
       </section>

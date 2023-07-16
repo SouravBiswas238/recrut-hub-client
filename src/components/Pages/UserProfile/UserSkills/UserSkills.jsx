@@ -48,7 +48,7 @@ const UserSkills = () => {
       <div className="px-5 pb-5">
         {/* all skills box */}
         <div>
-          {userInfo?.skills.map((skill, index) => (
+          {userInfo?.skills?.map((skill, index) => (
             <div
               key={index}
               className="max-w-[25rem] w-full px-8 py-6 user-card-shadow rounded mb-10"

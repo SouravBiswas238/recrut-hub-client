@@ -77,7 +77,14 @@ function App() {
             }
           ></Route>
           <Route path="/postJob" element={<PostAJob />}></Route>
-          <Route path="/developer" element={<Developer />}></Route>
+          <Route path="/developer"
+
+            element={
+              <ProtectedRout>
+                <Developer />
+              </ProtectedRout>
+            }
+          ></Route>
 
           <Route path='/developer/:email' element={<UserProfile />} >
             <Route path='about' element={<UserAbout />} />
@@ -134,7 +141,7 @@ function App() {
         <ToastContainer autoClose={1500} />
         <ReactTooltip />
       </UserStoreProvider>
-    </div>
+    </div >
   );
 }
 export default App;

@@ -44,7 +44,7 @@ const AdminList = () => {
           </thead>
           <tbody>
             {/* <!-- row 1 --> */}
-            {developers.map((dev, i) => (
+            {developers?.map((dev, i) => (
               <AdminRow key={dev._id} i={i} dev={dev} />
             ))}
           </tbody>

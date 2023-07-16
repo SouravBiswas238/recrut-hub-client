@@ -118,7 +118,7 @@ const SkillAssessment = () => {
                     Question {currentQuestion + 1}:{' '}
                     {questions[currentQuestion].question}
                   </h3>
-                  {questions[currentQuestion]?.options.map((option, i) => (
+                  {questions[currentQuestion]?.options?.map((option, i) => (
                     <>
                       <button
                         key={i}

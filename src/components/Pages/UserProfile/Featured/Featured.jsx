@@ -43,7 +43,7 @@ const Featured = () => {
 
       {/* Section content */}
       <div className="px-5 pb-5">
-        {userInfo?.featured.map((singleFeatured) => (
+        {userInfo?.featured?.map((singleFeatured) => (
           <div className="md:flex user-card-shadow rounded-lg mb-10">
             {/* featured left  */}
             <div className="md:w-1/2 min-w-[18.7rem]">

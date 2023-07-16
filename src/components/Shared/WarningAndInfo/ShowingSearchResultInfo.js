@@ -23,7 +23,7 @@ const ShowingSearchResultInfo = ({ searchedResults }) => {
           {searchedResults?.queries ? (
             <span>
               Filter applied "
-              {Object.values(searchedResults?.queries).map(
+              {Object.values(searchedResults?.queries)?.map(
                 (singleValue, index) => (
                   <span>
                     {singleValue}{' '}
